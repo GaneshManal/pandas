@@ -11,10 +11,17 @@ print "Data : {}".format(data)
 print "Size  : {}".format(data.size)
 # print "Dir    : {}".format(dir(data))
 
+
 # Importing Numpy array data to the data-frames.
 print "-" * 60
 df_1 = pd.DataFrame(data=data[1:, 1:], index=data[1:, 0], columns=data[0, 1:])
 print "Data-frame 1 :\n{}".format(df_1)
+# print("Dir : {}".format(dir(df_1)))
+print "Shape = {}".format(df_1.shape)
+print "Index = {}".format(df_1.index)
+print "Len = {}".format(len(df_1))
+print "Columns = {}".format(df_1.columns)
+
 
 # Take a 2D array as input to your DataFrame
 print "-" * 60
@@ -43,5 +50,5 @@ df_5 = pd.Series({"Belgium": "Brussels", "India": "New Delhi",
                   "United Kingdom": "London", "United States": "Washington"})
 print "Data-frame 5 :\n{}".format(df_5)
 
-print "-" * 60
-print("Dir : {}".format(dir(df_5)))
+# print "-" * 60
+# print("Dir : {}".format(dir(df_5)))
