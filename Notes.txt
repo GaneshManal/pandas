@@ -1,0 +1,21 @@
+Pandas - Most widely used Python libraries in data science.
+           - The library has broader goal of becoming the most powerful and flexible
+             open source data analysis and manipulation tool available in any language.
+
+1. Creating Panda empty data-frames ( Like NumPy arrays - commonly used data structure)
+            - First step in data munging ( munging ? - manipulating )
+            - input to data-frames is served by differ data structure, ex. NumPy.
+
+
+
+
+NumPy - Fundamental package for scientific computing with Python.
+             Features includes :
+             -> a powerful N-dimensional array object
+             -> sophisticated (broadcasting) functions
+             -> tools for integrating C/C++ and Fortran code
+             -> Useful linear algebra, Fourier transform, and random number capabilities
+             -> Efficient multi-dimensional container of generic data.
+             -> Seamlessly and speedily integrate with a wide variety of databases.
+
+
