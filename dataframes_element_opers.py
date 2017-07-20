@@ -109,3 +109,4 @@ print "Data-frame 1 :\n{}".format(df)
 
 df = pd.DataFrame(index=range(0, 4), columns=['A'], dtype='float')
 print "Data-frame 2 :\n{}".format(df)
+
