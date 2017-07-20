@@ -26,5 +26,3 @@ df_1.to_excel(writer, 'DataFrame')
 writer.save()
 print "Done"
 print "-" * 60
-
-
