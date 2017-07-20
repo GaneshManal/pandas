@@ -44,3 +44,13 @@ print "-" * 60
 print "Accessing data-frame Column"
 print("Column[1] = \n{}".format(df.loc[:, 'C2']))
 
+print "-" * 60
+
+print "Iterating the rows of data frames"
+row_count = 0
+for index, row in df.iterrows():
+        row_count += 1
+        print("Index: {} \nRow:\n{}".format(index, row))
+        print "+" * 50
+
+print "Row Count : {}".format(row_count)
