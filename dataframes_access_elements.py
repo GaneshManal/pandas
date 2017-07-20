@@ -31,7 +31,7 @@ print("df[1][1] = {} - using at".format(df.at['R2', 'C2']))
 # Using `iat[]`
 print("df[1][1] = {} - using index at".format(df.iat[1, 1]))
 
-# Using `get_value(index, column)`
+# Using get_value(index, column)
 print("df[1][1] = {} - using get value".format(df.get_value('R2', 'C2')))
 
 print "-" * 60
@@ -43,3 +43,4 @@ print "-" * 60
 
 print "Accessing data-frame Column"
 print("Column[1] = \n{}".format(df.loc[:, 'C2']))
+
